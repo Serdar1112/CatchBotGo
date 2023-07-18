@@ -2,7 +2,7 @@
 
 **CatchBotGo![ref1]**
 
-![](Aspose.Words.af3186c8-160f-4450-9976-9cf03f4557c8.002.png)
+![](PicturesDoc/Aspose.Words.af3186c8-160f-4450-9976-9cf03f4557c8.002.png)
 
 Inspired by: [RealAndroidBot](https://github.com/MerlionRock/RealAndroidBot)
 
@@ -12,7 +12,7 @@ CatchBotGo is a software that works together with [**PGSharp**](https://www.pgsh
 
 Some folders in this project are redundant, but I can't remember which ones, so I'll leave them in just to be on the safe side.
 
-**Features![](Aspose.Words.af3186c8-160f-4450-9976-9cf03f4557c8.003.png)**
+**Features![](PicturesDoc/Aspose.Words.af3186c8-160f-4450-9976-9cf03f4557c8.003.png)**
 
 - Automatically move PGSharp's Pokemon Radar to the corner so that Pokemon can be clicked.
 - Click on Pokemon.
@@ -31,7 +31,7 @@ This describes the functions that are in the Python files.
 
 Everything happens here, to run, run main.py. The last time I had used it, it had worked, but that was in March.
 
-**catchPokemon.py![](Aspose.Words.af3186c8-160f-4450-9976-9cf03f4557c8.006.png)**
+**catchPokemon.py![](PicturesDoc/Aspose.Words.af3186c8-160f-4450-9976-9cf03f4557c8.006.png)**
 
 - **TakeScreen()** takes a screenshot and reads it.
 - **catchLow()** catches a pokemon that doesn't fly.
@@ -39,12 +39,12 @@ Everything happens here, to run, run main.py. The last time I had used it, it ha
 - **DrawCVCatch()** gets if the pokemon was caught or fled.
 - **ExitPokemonCaught()** exits the caught screen, if the pokemon was caught, if transferPokemon = true, then transfer Pokemon, before exiting.
 
-**checkPhone.py![](Aspose.Words.af3186c8-160f-4450-9976-9cf03f4557c8.007.png)**
+**checkPhone.py![](PicturesDoc/Aspose.Words.af3186c8-160f-4450-9976-9cf03f4557c8.007.png)**
 
 - **CheckApplicationRunning(device)** checks if the PokemonGo app is running, puts it in foreground.
 - **CheckScreenSize(device)** checks the screensize and sets it to 1080x1920
 
-**checkPokestop.py![](Aspose.Words.af3186c8-160f-4450-9976-9cf03f4557c8.008.png)**
+**checkPokestop.py![](PicturesDoc/Aspose.Words.af3186c8-160f-4450-9976-9cf03f4557c8.008.png)**
 
 - **SearchStops()** searchs for stops, this is sometimes working and sometimes not. Please work on this.
 - **CheckStopUsed()** checks if the clicked stop is already used or not.
@@ -57,14 +57,14 @@ Everything happens here, to run, run main.py. The last time I had used it, it ha
 - **PokemonClick()** clicks on the nearby radar on the first Pokemon.
 - **CheckIfEncounter()** checks if the trainer is in an encounter.
 
-**vision.py![](Aspose.Words.af3186c8-160f-4450-9976-9cf03f4557c8.009.png)**
+**vision.py![](PicturesDoc/Aspose.Words.af3186c8-160f-4450-9976-9cf03f4557c8.009.png)**
 
 - **CheckIfMenuButton()** checks if the menu button is visible (maybe to see if he is in the wrong screen).
 - **CheckIfX()** checks if "X" is visible on screen, to press it **ClickOnX()**, if he is in the wrong screen.
 
 **Download![ref1]**
 
-Mega.nz: [CatchBotGo](https://mega.nz/folder/MZlGHCiT#aMMwXopCCq_8k6-tjtBC3g)
+Mega.nz: [CatchBotGo](PicturesDoc/https://mega.nz/folder/MZlGHCiT#aMMwXopCCq_8k6-tjtBC3g)
 
 **Disclaimer![ref2]**
 
@@ -73,6 +73,6 @@ Mega.nz: [CatchBotGo](https://mega.nz/folder/MZlGHCiT#aMMwXopCCq_8k6-tjtBC3g)
 [CatchBotGo](https://mega.nz/folder/MZlGHCiT#aMMwXopCCq_8k6-tjtBC3g) is intended for academic purposes and should not be used to play the game *PokemonGo* as it is unfair to the community. Use the bot **at your own risk**.
 https://md2pdf.netlify.app 3/3
 
-[ref1]: Aspose.Words.af3186c8-160f-4450-9976-9cf03f4557c8.001.png
-[ref2]: Aspose.Words.af3186c8-160f-4450-9976-9cf03f4557c8.004.png
-[ref3]: Aspose.Words.af3186c8-160f-4450-9976-9cf03f4557c8.005.png
+[ref1]: PicturesDoc/Aspose.Words.af3186c8-160f-4450-9976-9cf03f4557c8.001.png
+[ref2]: PicturesDoc/Aspose.Words.af3186c8-160f-4450-9976-9cf03f4557c8.004.png
+[ref3]: PicturesDoc/Aspose.Words.af3186c8-160f-4450-9976-9cf03f4557c8.005.png
